@@ -56,9 +56,6 @@ nav{
 }
 /*sezione 1 main*/
 .col{
-    
-    color: blue;
-    background-color:lightblue ;
     border-radius: 2rem;
     padding:0 2rem ;
     padding-top: 2rem;
@@ -68,6 +65,13 @@ nav{
 .small-col{
     text-align: center;
     padding: 2rem;
+    color: blue;
+    background-color:lightblue ;
+}
+
+.big-col{
+    color: blue;
+    background-color:lightblue ;
 }
 
 h1{
@@ -149,4 +153,14 @@ img{
         width: 50%;
     }
     
+}
+/*planning*/
+.planning{
+    background-color:rgb(132, 0, 255);
+    color: white;
+}
+
+.app{
+    background-color: white;
+    color: black;
 }
