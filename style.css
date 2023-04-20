@@ -47,10 +47,22 @@ nav{
 }
 
 .col{
-    text-align: center;
+    
     color: blue;
     background-color:lightblue ;
     border-radius: 5%;
+    padding:0 2rem ;
+    padding-top: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 img{
