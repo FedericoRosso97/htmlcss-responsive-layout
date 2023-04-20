@@ -21,6 +21,7 @@ nav{
 
 .container{
     width: 90%;
+    margin: 0 auto;
 }
 
 .desktop-menu{
@@ -43,4 +44,15 @@ nav{
    .container{
     width: 65%;
    }
+}
+
+.col{
+    text-align: center;
+    color: blue;
+    background-color:lightblue ;
+    border-radius: 5%;
+}
+
+img{
+    max-width: 100%;
 }
