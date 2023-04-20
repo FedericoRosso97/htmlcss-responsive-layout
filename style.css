@@ -34,4 +34,8 @@ nav{
    .menu-box{
     display: none;
    }
+   .menu{
+    list-style-type:none;
+    gap: 1.5rem;
+   }
 }
