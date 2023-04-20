@@ -5,6 +5,11 @@
     
 }
 
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
 .flex{
     display: flex;
 }
