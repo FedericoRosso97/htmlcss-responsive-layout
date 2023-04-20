@@ -14,6 +14,8 @@ body{
     display: flex;
 }
 
+/*header*/
+
 header{
 background-color: rgb(0, 132, 255);
 padding: 1.5rem;
@@ -34,6 +36,8 @@ nav{
    
 }
 
+/*responsive header desktop*/
+
 @media  screen and (min-width:1160px){
     .desktop-menu{
         display: flex;
@@ -50,7 +54,7 @@ nav{
     width: 65%;
    }
 }
-
+/*sezione 1 main*/
 .col{
     
     color: blue;
@@ -77,4 +81,21 @@ p{
 
 img{
     max-width: 100%;
+}
+
+/*responsive sez1 main tablet*/
+
+@media screen and (min-width:768px){
+    .demo-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .big-col{
+        width: calc((100%/ 3)*2);
+    }
+
+    .small-col{
+        width: calc(100%/ 3);
+    }
 }
