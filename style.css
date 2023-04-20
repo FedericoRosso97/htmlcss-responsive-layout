@@ -50,16 +50,13 @@ nav{
     list-style-type:none;
     gap: 1.5rem;
    }
-   .container{
-    width: 65%;
-   }
+   
 }
 /*sezione 1 main*/
 .col{
     border-radius: 2rem;
-    padding:0 2rem ;
-    padding-top: 2rem;
-    margin: 1.5rem 0;
+    padding:2rem ;
+    /*margin: 1.5rem 0;*/
 }
 
 .small-col{
@@ -72,6 +69,7 @@ nav{
 .big-col{
     color: blue;
     background-color:lightblue ;
+    padding-bottom: 0;
 }
 
 h1{
@@ -115,11 +113,7 @@ img{
 
     }
 
-.col-row{
-    margin-bottom: 3rem;
-}
-
-    .demo-section{
+    .col-box{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -136,14 +130,14 @@ img{
         
     }
 
-    .small-col{
+    .col-flex{
        width: calc(90%/3);
     }
 
 .col-img{width: 70%;}
 }
 
-/*responsive sez1 main tablet*/
+/*responsive sez1 main desktop*/
 @media  screen and (min-width:1160px){
     div .big-col{
         display: flex;
@@ -156,11 +150,33 @@ img{
 }
 /*planning*/
 .planning{
-    background-color:rgb(132, 0, 255);
+    background-color:rgb(166, 78, 249);
     color: white;
 }
 
 .app{
     background-color: white;
     color: black;
+}
+
+/*resp planning desktop*/
+@media  screen and (min-width:1160px){
+   .planning .container{
+        display: flex;
+        align-items: flex-end;
+        width: 70%;
+       padding: 3rem;
+    }
+    .plan{
+        padding: 0;
+        width: 60%;
+        font-size: 70%;
+    }
+    .app{
+        width: 40%;
+        font-size: 70%;
+    }
+    /*.planning img{
+        width: 30%;
+    }*/
 }
