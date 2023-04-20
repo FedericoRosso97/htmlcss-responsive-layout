@@ -55,6 +55,11 @@ nav{
     padding-top: 2rem;
 }
 
+.small-col{
+    text-align: center;
+    padding: 2rem;
+}
+
 h1{
     font-size: 2rem;
     margin-bottom: 1.5rem;
