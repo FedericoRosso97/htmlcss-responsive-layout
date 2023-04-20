@@ -71,7 +71,7 @@ nav{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -80,16 +80,23 @@ p{
     margin-bottom: 1.5rem;
 }
 
+
+    .col-img{
+        display: flex;
+        align-items: flex-end;
+    }
+
+
 img{
-    max-width: 100%;
+    width: 100%;
 }
 
 .button{
-    width: 75%;
+    width: 85%;
     color: white;
     background-color: blue;
     border-radius: 5rem;
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 1rem;
     border: none;
     margin: 2rem 0;
@@ -121,6 +128,7 @@ img{
 
     .big-col{
        width: calc((90%/3)*2);
+       padding-bottom: 0;
         
     }
 
@@ -128,5 +136,17 @@ img{
        width: calc(90%/3);
     }
 
+.col-img{width: 70%;}
+}
 
+/*responsive sez1 main tablet*/
+@media  screen and (min-width:1160px){
+    div .big-col{
+        display: flex;
+    }
+
+    .big-col div{
+        width: 50%;
+    }
+    
 }
