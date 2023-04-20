@@ -23,6 +23,15 @@ nav{
     width: 90%;
 }
 
+.desktop-menu{
+    display: none;
+}
+
 @media  screen and (min-width:1160px){
-    
+    .desktop-menu{
+        display: block;
+    }
+   .menu-box{
+    display: none;
+   }
 }
