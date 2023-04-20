@@ -89,13 +89,30 @@ img{
     .demo-section{
         display: flex;
         flex-wrap: wrap;
+
     }
-    
+
+.col-row{
+    margin-bottom: 3rem;
+}
+
+    .demo-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .col{
+        margin-bottom: 1.5rem;
+
+    }
+
     .big-col{
-        width: calc((100%/ 3)*2);
+       width: calc((90%/3)*2);
+        
     }
 
     .small-col{
-        width: calc(100%/ 3);
+       width: calc(90%/3);
     }
 }
