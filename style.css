@@ -204,7 +204,7 @@ margin-top: 1.5rem;
         padding: 0;
         width: 60%;
         font-size: 70%;
-        margin-right: 2rem;
+        margin-right: 3rem;
     }
     .app{
         width: 40%;
@@ -229,6 +229,17 @@ margin-top: 1.5rem;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.testimonials h1{
+margin-bottom: 1.5rem;
+color: #715bd5e4;
+font-size: 2rem;
+}
+
+.testimonials h2{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
 
 /*Responsive testimonials tablet/desktop*/
