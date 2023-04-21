@@ -211,6 +211,12 @@ img{
 /*Benefits session*/
 .benefits{
     background-color: #715bd5e4;
+    color: white;
+}
+
+
+.benefit-title{
+    text-align: center;
 }
 
 .benefits .col{
@@ -218,3 +224,15 @@ img{
     background-color: white;
 }
 
+/*respnsive benefits tablet*/
+@media screen and (min-width:768px){
+    .benefits .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .benefits .col{
+        width: calc(95% / 2);
+    }
+}
