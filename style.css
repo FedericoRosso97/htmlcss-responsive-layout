@@ -236,3 +236,16 @@ img{
         width: calc(95% / 2);
     }
 }
+
+/*responsive benefits desktop*/
+@media screen and (min-width:1160px){
+    .benefits .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .benefits .col{
+        width: calc(95% / 3);
+    }
+}
