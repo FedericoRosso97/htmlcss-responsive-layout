@@ -312,6 +312,28 @@ font-size: 2rem;
 
 /*about us*/
 
+.about-us h1{
+    margin-bottom: 1.5rem;
+color: #715bd5e4;
+font-size: 3rem;
+}
+
+.about-us h2{
+    margin-bottom: 1.5rem;
+    color: #715bd5e4;
+    font-size: 1.5rem;
+}
+
+.about-us button{
+    color: white;
+    background-color: #715bd5e4;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    margin: 2rem 0;
+}
+
 .about-us img{
     width: 200px;
     height: 200px;
