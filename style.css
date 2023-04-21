@@ -341,6 +341,17 @@ font-size: 3rem;
     object-fit: cover;
 }
 
+.about{
+    position: relative;
+}
+
+.quote{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #715bd5e4;
+}
+
 /*about-us responsive*/
 
 @media screen and (min-width:768px){
