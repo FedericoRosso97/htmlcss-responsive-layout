@@ -354,8 +354,38 @@ font-size: 3rem;
     text-align: center;
     background-color: #715bd5e4;
     display: flex;
+    color: white ;
 }
 
+.get-started h3{
+    font-size:1.5rem ;
+    margin-top: 1.5rem
+}
+
+.free{
+    color: orange;
+    font-size:3rem ;
+    margin-top: 1.5rem
+}
+
+.Geth2{
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.703);
+}
+
+.get-started button{
+    color: white;
+    background-color: #715bd5e4;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    margin: 2rem 0;
+}
+
+.get-started a{
+    color: white;
+}
 /*footer*/
 footer{
     background-color: black;
