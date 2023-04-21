@@ -26,6 +26,13 @@ nav{
     margin: 0 auto;
 }
 
+.bottone{
+    background-color: white;
+    border: none;
+    border-radius: 2.5rem;
+    padding:0.5rem;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -36,9 +43,15 @@ nav{
    
 }
 
+ul{
+    align-items: center;
+}
 /*responsive header desktop*/
 
 @media  screen and (min-width:1160px){
+    nav{
+        width: 75%;
+    }
     .desktop-menu{
         display: flex;
         align-items: center;
@@ -52,6 +65,13 @@ nav{
    }
    
 }
+/*responsivr header per tablet*/
+@media  screen and (min-width:768px){
+nav{
+width: 75%;
+}
+}
+
 /*sezione 1 main*/
 .col{
     border-radius: 2rem;
@@ -279,5 +299,10 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+    display: flex;
 
+}
+
+footer a {
+    color: #715bd5e4;
 }
