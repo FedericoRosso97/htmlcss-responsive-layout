@@ -76,6 +76,9 @@ width: 75%;
 }
 
 /*sezione 1 main*/
+main section{
+    padding: 2rem 0;
+}
 .col{
     border-radius: 2rem;
     padding:2rem ;
@@ -198,7 +201,7 @@ img{
         width: 30%;
     }*/
 }
-
+/*testimonials*/
 .testimonials{
     text-align: center;
 }
