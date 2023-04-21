@@ -271,4 +271,13 @@ img{
 .get-started{
     text-align: center;
     background-color: #715bd5e4;
+    display: flex;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+
 }
