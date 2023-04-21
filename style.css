@@ -46,7 +46,6 @@ nav{
 ul{
     align-items: center;
 }
-/*responsive header desktop*/
 
 @media  screen and (min-width:1160px){
     nav{
@@ -67,14 +66,42 @@ ul{
     gap: 1.5rem;
    }
    
-}
-/*responsivr header per tablet*/
-@media  screen and (min-width:768px){
-nav{
-width: 75%;
-}
+   div .big-col{
+    display: flex;
 }
 
+  .big-col div{
+    width: 50%;
+}
+
+.planning .container{
+    display: flex;
+    align-items: flex-end;
+    width: 70%;
+   padding: 3rem;
+}
+.plan{
+    padding: 0;
+    width: 60%;
+    font-size: 70%;
+    margin-right: 3rem;
+}
+.app{
+    width: 40%;
+    font-size: 70%;
+}
+
+.benefits .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits .col{
+    width: calc(95% / 3);
+}
+
+}
 /*sezione 1 main*/
 main section{
     padding: 2rem 0;
@@ -109,7 +136,7 @@ p{
 }
 
 
-    .col-img{
+.col-img{
         display: flex;
         align-items: flex-end;
     }
@@ -130,45 +157,6 @@ img{
     margin: 2rem 0;
 }
 
-/*responsive sez1 main tablet*/
-
-@media screen and (min-width:768px){
-    
-    .col-box{
-        display: flex;
-        flex-wrap: wrap;
-         gap: 2%;
-    }
-
-    .col{
-        margin-bottom: 1.5rem;
-
-    }
-
-    .big-col{
-       width: calc((98%/3)*2);
-       padding-bottom: 0;
-        
-    }
-
-    .col-flex{
-       width: calc(95%/ 3);
-    }
-
-.col-img{width: 70%;}
-}
-
-/*responsive sez1 main desktop*/
-@media  screen and (min-width:1160px){
-    div .big-col{
-        display: flex;
-    }
-
-    .big-col div{
-        width: 50%;
-    }
-    
-}
 /*planning*/
 .planning{
     background-color:#715bd5e4;
@@ -192,28 +180,6 @@ margin-top: 1.5rem;
     border: none;
 }
 
-/*resp planning desktop*/
-@media  screen and (min-width:1160px){
-   .planning .container{
-        display: flex;
-        align-items: flex-end;
-        width: 70%;
-       padding: 3rem;
-    }
-    .plan{
-        padding: 0;
-        width: 60%;
-        font-size: 70%;
-        margin-right: 3rem;
-    }
-    .app{
-        width: 40%;
-        font-size: 70%;
-    }
-    /*.planning img{
-        width: 30%;
-    }*/
-}
 /*testimonials*/
 .testimonials{
     text-align: center;
@@ -240,17 +206,6 @@ font-size: 2rem;
 .testimonials h2{
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
-}
-
-/*Responsive testimonials tablet/desktop*/
-@media screen and (min-width:768px){
-    .testimonials .col{
-        display: flex;
-    }
-    
-    .tes-img{
-        margin: 0;
-    }
 }
 
 /*Benefits session*/
@@ -282,32 +237,6 @@ font-size: 2rem;
     font-size: 1rem;
     border: none;
     margin: 2rem 0;
-}
-
-/*respnsive benefits tablet*/
-@media screen and (min-width:768px){
-    .benefits .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .benefits .col{
-        width: calc(95% / 2);
-    }
-}
-
-/*responsive benefits desktop*/
-@media screen and (min-width:1160px){
-    .benefits .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .benefits .col{
-        width: calc(95% / 3);
-    }
 }
 
 /*about us*/
@@ -347,17 +276,9 @@ font-size: 3rem;
 
 .quote{
     position: absolute;
-    right: 0;
+    right: 5px;
     top: 0;
     color: #715bd5e4                                ;
-}
-
-/*about-us responsive*/
-
-@media screen and (min-width:768px){
-    .about-us .container{
-        display: flex;
-    }
 }
 
 /*get-started*/
@@ -409,3 +330,110 @@ footer{
 footer a {
     color: #715bd5e4;
 }
+
+@media  screen and (min-width:768px){
+    nav{
+    width: 75%;
+    }
+    .col-box{
+        display: flex;
+        flex-wrap: wrap;
+         gap: 2%;
+    }
+
+    .col{
+        margin-bottom: 1.5rem;
+
+    }
+
+    .big-col{
+       width: calc((98%/3)*2);
+       padding-bottom: 0;
+        
+    }
+
+    .col-flex{
+       width: calc(95%/ 3);
+    }
+
+    .col-img{width: 70%;}
+
+    .testimonials .col{
+        display: flex;
+    }
+    
+    .tes-img{
+        margin: 0;
+    }
+
+    .benefits .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .benefits .col{
+        width: calc(95% / 2);
+    }
+
+    .about-us .container{
+        display: flex;
+    }
+
+    }
+
+ @media  screen and (min-width:1160px){
+        nav{
+            width: 75%;
+        }
+        
+        .desktop-menu{
+            display: flex;
+            align-items: center;
+        }
+       
+        .menu-box{
+        display: none;
+       }
+       
+       .menu{
+        list-style-type:none;
+        gap: 1.5rem;
+       }
+       
+       div .big-col{
+        display: flex;
+    }
+    
+      .big-col div{
+        width: 50%;
+    }
+    
+    .planning .container{
+        display: flex;
+        align-items: flex-end;
+        width: 70%;
+       padding: 3rem;
+    }
+    .plan{
+        padding: 0;
+        width: 60%;
+        font-size: 70%;
+        margin-right: 3rem;
+    }
+    .app{
+        width: 40%;
+        font-size: 70%;
+    }
+    
+    .benefits .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .benefits .col{
+        width: calc(95% / 3);
+    }
+    
+    }  
