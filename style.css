@@ -264,9 +264,24 @@ font-size: 2rem;
     text-align: center;
 }
 
+.benefits h1{
+    font-size:3rem ;
+}
+
 .benefits .col{
     color: #715bd5e4;
     background-color: white;
+}
+
+.benefits button{
+    width: 60%;
+    color: white;
+    background-color: #715bd5e4;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    margin: 2rem 0;
 }
 
 /*respnsive benefits tablet*/
